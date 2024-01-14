@@ -2,9 +2,9 @@
 
 ## Table of Contents
 - [General info](GeneralInfo)
-- Technologies(Technologies)
-- Setup(Setup)
-- Status(Status)
+- [Technologies](Technologies)
+- [Setup](Setup)
+- [Status](Status)
 
 ## <a name="GeneralInfo"></a>General info
 
