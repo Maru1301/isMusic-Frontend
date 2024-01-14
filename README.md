@@ -1,22 +1,21 @@
-# iSpanProject
+# isMusic
+
+1. Please check the installation of npm in your environment
+2. Enter the commands below
 
 
-1. 請先確定環境有安裝npm
-2. 在終端機/Powershell中執行下列指令
-
-
-### 建置package.json以及其他vue檔案
+### build package.json and other vue files
 
 ```
 npm install
 ```
 
-### 開啟serve
+### run serve
 ```
 npm run serve
 ```
 
-### 查看打包檔案
+### run build
 ```
 npm run build
 ```
