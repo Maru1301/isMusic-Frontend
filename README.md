@@ -1,4 +1,4 @@
-# isMusic
+# isMusic-Frontend
 
 1. Please check the installation of npm in your environment
 2. Enter the commands below
