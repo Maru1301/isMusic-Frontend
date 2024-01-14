@@ -1,5 +1,11 @@
 # isMusic-Frontend
 
+## Table of Contents
+- General info
+- Technologies
+- Setup
+- Status
+
 1. Please check the installation of npm in your environment
 2. Enter the commands below
 
