@@ -1,18 +1,18 @@
 # isMusic-Frontend
 
 ## Table of Contents
-- General info
-- Technologies
-- Setup
-- Status
+- [General info](GeneralInfo)
+- Technologies(Technologies)
+- Setup(Setup)
+- Status(Status)
 
-## General info
+## <a name="GeneralInfo"></a>General info
 
-## Technologies
+## <a name="Technologies"></a>Technologies
 - Vue.js
 - 
 
-## Setup
+## <a name="Setup"></a>Setup
 
 1. Please check the installation of npm in your environment
 2. Enter the commands below
