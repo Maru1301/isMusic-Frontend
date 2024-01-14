@@ -2,17 +2,16 @@
 
 ## Table of Contents
 - [General info](#General-info)
-- [Technologies](Technologies)
-- [Setup](Setup)
+- [Technologies](#Technologies)
+- [Setup](#Setup)
 - [Status](Status)
 
 ## General info
 
-## <a name="Technologies"></a>Technologies
+## Technologies
 - Vue.js
-- 
 
-## <a name="Setup"></a>Setup
+## Setup
 
 1. Please check the installation of npm in your environment
 2. Enter the commands below
