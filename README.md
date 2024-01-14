@@ -1,12 +1,12 @@
 # isMusic-Frontend
 
 ## Table of Contents
-- [General info](GeneralInfo)
+- [General info](#General-info)
 - [Technologies](Technologies)
 - [Setup](Setup)
 - [Status](Status)
 
-## <a name="GeneralInfo"></a>General info
+## General info
 
 ## <a name="Technologies"></a>Technologies
 - Vue.js
