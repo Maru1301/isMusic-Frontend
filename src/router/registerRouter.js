@@ -3,7 +3,7 @@ import {
   createWebHistory,
   createWebHashHistory,
 } from "vue-router";
-import Register from "@/pages/register/Register.vue";
+import Register from "@/views/register/Register.vue";
 
 const routes = [
   {

@@ -3,12 +3,12 @@ import {
   createWebHistory,
   createWebHashHistory,
 } from "vue-router";
-import MemberHome from "../pages/member/views/memberHome.vue";
-import MemberInfo from "../pages/member/views/MemberInfo.vue";
-import MemberSubscription from "../pages/member/views/MemberSubscription.vue";
-import MemberOrder from "../pages/member/views/MemberOrder.vue";
-import MusicLibrary from "../pages/member/views/MusicLibrary.vue";
-import MemberActivate from "../pages/member/views/MemberActivate.vue"
+import MemberHome from "../views/member/views/memberHome.vue";
+import MemberInfo from "../views/member/views/MemberInfo.vue";
+import MemberSubscription from "../views/member/views/MemberSubscription.vue";
+import MemberOrder from "../views/member/views/MemberOrder.vue";
+import MusicLibrary from "../views/member/views/MusicLibrary.vue";
+import MemberActivate from "../views/member/views/MemberActivate.vue"
 
 const routes = [
   {

@@ -34,7 +34,7 @@ export default {
                 <a href="index.html"><img src="@/assets/logo.png" /></a>
             </div>
             <!-- Direct -->
-            <div id="pages">
+            <div>
                 <a href="music.html" v-if="props.isLogin" id="musicPage"
                     >音樂播放</a
                 >
@@ -95,20 +95,6 @@ nav {
         }
     }
 
-    > #pages {
-        display: flex;
-        color: white;
-
-        > :nth-child(1) {
-            margin-left: 2rem;
-        }
-
-        > a {
-            text-decoration: none;
-            color: white;
-            padding-right: 6rem;
-        }
-    }
 
     > .loginSection {
         display: flex;

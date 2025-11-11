@@ -1,14 +1,14 @@
 <script>
-import { ref, onMounted } from "vue";
+import MemberSide from "@/views/member/components/MemberSide";
+import MemberHeader from "@/views/member/components/MemberHeader.vue";
 import Cookies from "js-cookie";
 import axios from "axios";
-import ShopHeader from "@/pages/shop/components/ShopHeader";
-import ShopSide from "@/pages/shop/components/ShopSide";
+import { onMounted, ref } from "vue";
 
 export default {
     components: {
-        ShopHeader,
-        ShopSide,
+        MemberSide,
+        MemberHeader,
     },
     setup() {
         const isLogin = ref(false);
@@ -59,15 +59,16 @@ export default {
 </script>
 <template>
     <div class="container">
+        <!-- header -->
         <div class="headContainer">
-            <ShopHeader :isLogin="isLogin" :handLogout="handLogout" />
+            <MemberHeader :isLogin="isLogin" :handLogout="handLogout" />
         </div>
+        <!-- side -->
         <div class="sideContainer">
-            <ShopSide />
+            <MemberSide />
         </div>
-        <!-- <router-link to="/productItem">商品</router-link>
-    <router-link to="/cart">購物車</router-link>
-    <router-link to="/checkout">結帳</router-link> -->
+        <!-- router-view -->
+        <!-- <div class="view"></div> -->
     </div>
 </template>
 
@@ -75,11 +76,8 @@ export default {
 * {
     margin: 0;
     padding: 0;
-    // -webkit-box-sizing: border-box;
-    // -moz-box-sizing: border-box;
-    //box-sizing: border-box;
     // 改字體
-    font-family: "微軟正黑體", "Heiti TC", "sans-serif";
+    font-family: "Microsoft JhengHei", "Heiti TC", "sans-serif";
     list-style: none;
 }
 
@@ -98,7 +96,7 @@ body {
     );
 }
 
-#shop {
+#member {
     width: 100%;
     height: 100%;
     font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -108,12 +106,12 @@ body {
     color: hsl(210, 29%, 24%);
 
     .container {
-        background-color: #1f2124;
         width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
         overflow: hidden;
+        background-color: #1f2124;
 
         .headContainer {
             display: block;
@@ -126,17 +124,16 @@ body {
             left: 0;
             top: 20px;
             height: 100%;
-            width: 100%;
         }
         .view {
             flex: 1;
             overflow-y: scroll;
+            background-color: white;
             display: flex;
             justify-content: start;
             align-items: start;
-            width: 100%;
-            height: auto;
-            padding-left: 3rem;
+            padding-top: 7rem;
+            padding-left: 9rem;
         }
     }
 }

@@ -3,14 +3,14 @@ import {
   createWebHistory,
   createWebHashHistory,
 } from "vue-router";
-import MusicHome from "@/pages/music/views/musicHome.vue";
-import MusicSearch from "@/pages/music/views/musicSearch.vue";
-import MusicLibrary from "@/pages/music/views/musicLibrary.vue";
-import MusicPlaylist from "@/pages/music/views/musicPlaylist.vue"
-import CategorySearch from "@/pages/music/views/categorySearch.vue";
-import MusicAlbum from "@/pages/music/views/musicAlbum.vue";
-import MusicArtist from "@/pages/music/views/musicArtist.vue";
-import MusicCreator from "@/pages/music/views/musicCreator.vue";
+import MusicHome from "@/views/music/views/musicHome.vue";
+import MusicSearch from "@/views/music/views/musicSearch.vue";
+import MusicLibrary from "@/views/music/views/musicLibrary.vue";
+import MusicPlaylist from "@/views/music/views/musicPlaylist.vue"
+import CategorySearch from "@/views/music/views/categorySearch.vue";
+import MusicAlbum from "@/views/music/views/musicAlbum.vue";
+import MusicArtist from "@/views/music/views/musicArtist.vue";
+import MusicCreator from "@/views/music/views/musicCreator.vue";
 
 const routes = [
   {

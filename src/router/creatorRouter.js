@@ -3,7 +3,7 @@ import {
     createWebHistory,
     createWebHashHistory,
   } from "vue-router";
-  import CreatorHome from "../pages/creator/Creator.vue";
+  import CreatorHome from "../views/creator/Creator.vue";
  
   const routes = [
     {

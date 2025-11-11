@@ -3,7 +3,7 @@ import {
     createWebHistory,
     createWebHashHistory,
 } from "vue-router";
-import Activities from "../pages/activity/views/Activities/index.vue";
+import Activities from "../views/activity/views/Activities/index.vue";
 const routes = [
     {
         path: "/",
@@ -14,7 +14,7 @@ const routes = [
     {
         path: "/activities/:id",
         name: "Activities_id",
-        component: () => import("@/pages/activity/views/Activities/_id.vue"),
+        component: () => import("@/views/activity/views/Activities/_id.vue"),
     },
     {
         path: "/:pathMatch(.*)",

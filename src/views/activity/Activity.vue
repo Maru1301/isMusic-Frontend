@@ -110,7 +110,7 @@ export default {
                     placeholder="請輸入活動名稱、時間、地點"
                 />
             </div>
-            <div id="pages">
+            <div>
                 <a href="music.html" v-if="!isLogin" id="musicPage">音樂播放</a>
                 <a href="shop.html" v-if="!isLogin" id="shopPage">音樂商城</a>
                 <a href="member.html" v-if="!isLogin" id="actPage">會員</a>
@@ -329,20 +329,6 @@ a {
                         outline: none;
                         color: white;
                     }
-                }
-            }
-            #pages {
-                display: flex;
-                color: white;
-
-                > :nth-child(1) {
-                    margin-left: 1rem;
-                }
-
-                > a {
-                    text-decoration: none;
-                    color: white;
-                    padding-right: 3rem;
                 }
             }
             .loginSection {
