@@ -3,11 +3,11 @@ import {
     createWebHistory,
     createWebHashHistory,
 } from "vue-router";
-import ShopHome from "../pages/shop/views/shopHome.vue";
-// import ProductItem from "@/pages/shop/views/productItem.vue";
-// import Cart from "@/pages/shop/views/cart.vue";
-import Checkout from "@/pages/shop/views/checkout.vue";
-import ProductItem from "@/pages/shop/views/productItem.vue";
+import ShopHome from "../views/shop/views/shopHome.vue";
+// import ProductItem from "@/views/shop/views/productItem.vue";
+// import Cart from "@/views/shop/views/cart.vue";
+import Checkout from "@/views/shop/views/checkout.vue";
+import ProductItem from "@/views/shop/views/productItem.vue";
 
 const routes = [
     {
@@ -18,11 +18,11 @@ const routes = [
     {
         path: "/productItem/:id",
         name: "prodcut_id",
-        component: () => import("@/pages/shop/views/productItem.vue"),
+        component: () => import("@/views/shop/views/productItem.vue"),
     },
     {
         path: "/cart",
-        component: () => import("@/pages/shop/views/cart.vue"),
+        component: () => import("@/views/shop/views/cart.vue"),
     },
     {
         path: "/checkout",
