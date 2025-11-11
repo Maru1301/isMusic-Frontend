@@ -1,0 +1,18 @@
+
+> ispanproject@0.1.0 json-server
+> json-server --watch src/db/activities.json
+
+
+  \{^_^}/ hi!
+
+  Loading src/db/activities.json
+  Done
+
+  Resources
+  http://localhost:3000/activities
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
