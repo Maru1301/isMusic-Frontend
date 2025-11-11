@@ -1,0 +1,12 @@
+
+> ispanproject@0.1.0 start
+> concurrently "npm run serve" "npm run json-server"
+
+[0]
+[0] > ispanproject@0.1.0 serve
+[0] > vue-cli-service serve
+[0]
+[1]
+[1] > ispanproject@0.1.0 json-server
+[1] > json-server --watch src/db/activities.json
+[1]

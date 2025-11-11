@@ -3,17 +3,14 @@ import { ref } from "vue";
 import Cookies from "js-cookie";
 
 export default {
-    props: {
-        isLogin: {
-            type: Boolean,
-        },
-        handLogout: {
-            type: Function,
-            default: () => {},
-        },
-    },
-    setup(props) {
-        return { props };
+    setup() {
+        const memberNickname = ref("");
+
+        if (Cookies.get("loginInfo") !== undefined) {
+          memberNickname.value = Cookies.get("UserID");
+        }
+
+        return { memberNickname };
     },
 };
 </script>
@@ -26,7 +23,7 @@ export default {
             </div>
             <div class="block"></div>
             <!-- Direct -->
-            <div id="pages">
+            <div>
                 <a href="music.html" v-if="props.isLogin" id="musicPage"
                     >音樂播放</a
                 >
@@ -99,20 +96,6 @@ nav {
         z-index: 1;
     }
 
-    > #pages {
-        display: flex;
-        color: white;
-
-        > :nth-child(1) {
-            margin-left: 2rem;
-        }
-
-        > a {
-            text-decoration: none;
-            color: white;
-            padding-right: 6rem;
-        }
-    }
 
     > .loginSection {
         display: flex;

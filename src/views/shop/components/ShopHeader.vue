@@ -32,7 +32,7 @@ export default {
             </div>
             <div class="block"></div>
             <!-- Direct -->
-            <div id="pages">
+            <div>
                 <a href="music.html" id="musicPage">音樂播放</a>
                 <a href="activity.html" id="actPage">音樂活動</a>
                 <a href="member.html" id="shopPage">會員管理</a>
@@ -89,20 +89,6 @@ nav {
         z-index: 1;
     }
 
-    > #pages {
-        display: flex;
-        color: white;
-
-        > :nth-child(1) {
-            margin-left: 2rem;
-        }
-
-        > a {
-            text-decoration: none;
-            color: white;
-            padding-right: 6rem;
-        }
-    }
 
     > .loginSection {
         display: flex;

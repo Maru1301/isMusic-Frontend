@@ -1,7 +1,7 @@
 import { createApp } from "vue";
 import Shop from "./Shop.vue";
 import router from "@/router/shopRouter";
-import Card from "@/pages/shop/components/productCard.vue";
+import Card from "@/views/shop/components/productCard.vue";
 import store from "@/store/index.js";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "@fortawesome/fontawesome-free/js/all.js";

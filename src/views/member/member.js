@@ -1,7 +1,7 @@
 import { createApp } from "vue";
 import Member from "./Member.vue";
 import router from "@/router/memberRouter";
-import modal from "@/pages/member/components/MemberModal.vue";
+import modal from "@/views/member/components/MemberModal.vue";
 import store from "@/store/index";
 
 import "@fortawesome/fontawesome-free/css/all.css";

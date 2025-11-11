@@ -3,7 +3,7 @@ import {
   createWebHistory,
   createWebHashHistory,
 } from "vue-router";
-import ResetPassword from "@/pages/resetPassword/ResetPassword.vue";
+import ResetPassword from "@/views/resetPassword/ResetPassword.vue";
 
 const routes = [
   {

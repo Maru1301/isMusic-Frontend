@@ -3,7 +3,7 @@ import {
   createWebHistory,
   createWebHashHistory,
 } from "vue-router";
-import Reset from "@/pages/reset/Reset.vue";
+import Reset from "@/views/reset/Reset.vue";
 
 const routes = [
   {

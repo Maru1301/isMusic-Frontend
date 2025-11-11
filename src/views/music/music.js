@@ -2,10 +2,10 @@ import { createApp } from "vue";
 import Music from "./Music.vue";
 import router from "@/router/musicRouter";
 import store from "@/store/index.js";
-import Card from "@/pages/music/components/MusicCard.vue";
-import Song from "@/pages/music/components/MusicSong.vue";
-import Options from "@/pages/music/components/MusicOption.vue";
-import Modal from "@/pages/music/components/MusicModal.vue";
+import Card from "@/views/music/components/MusicCard.vue";
+import Song from "@/views/music/components/MusicSong.vue";
+import Options from "@/views/music/components/MusicOption.vue";
+import Modal from "@/views/music/components/MusicModal.vue";
 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'

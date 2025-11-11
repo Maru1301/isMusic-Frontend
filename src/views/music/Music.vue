@@ -1,6 +1,6 @@
 <script>
-import SideBar from '@/pages/music/components/SideBar.vue';
-import PlayerFooter from '@/pages/music/components/MusicPlayer.vue'
+import SideBar from '@/views/music/components/SideBar.vue';
+import PlayerFooter from '@/views/music/components/MusicPlayer.vue'
 import { ref } from 'vue'
 import Cookies from "js-cookie";
 

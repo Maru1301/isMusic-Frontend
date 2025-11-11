@@ -3,7 +3,7 @@ import {
   createWebHistory,
   createWebHashHistory,
 } from "vue-router";
-import Login from "@/pages/login/Login.vue";
+import Login from "@/views/login/Login.vue";
 
 const routes = [
   {
